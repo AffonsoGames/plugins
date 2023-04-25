@@ -29,7 +29,6 @@ window.addEventListener('load', () => {
                 window.open(joinButton.getAttribute('href') || '', joinButton.getAttribute('target') || '', '');
             }
         });
-        footerInfo.innerText = footerText;
         joinButton.innerText = 'ENTRAR AGORA';
         footer.append(footerInfo, joinButton);
         //style
