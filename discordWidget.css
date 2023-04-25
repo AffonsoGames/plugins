@@ -210,3 +210,7 @@ discord-widget widget-footer widget-button-join {
 discord-widget widget-footer widget-button-join:hover {
   background-color: var(--buttonColor);
 }
+// CSS
+.centered-button {
+  text-align: center;
+}
