@@ -33,7 +33,7 @@ window.addEventListener('load', () => {
         joinButton.innerText = 'Join';
         footer.append(footerInfo, joinButton);
         //style
-        widget.innerHTML = '<link rel="stylesheet" href="https://affonsogames.github.io/affonsogames/discordWidget.css">';
+        widget.innerHTML = '<link rel="stylesheet" href="https://affonsogames.github.io/plugins/discordWidget.css">';
         widget.style.height = height;
         widget.style.width = width;
         widget.style.setProperty("--color", color);
