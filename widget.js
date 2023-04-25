@@ -30,7 +30,7 @@ window.addEventListener('load', () => {
             }
         });
         footerInfo.innerText = footerText;
-        joinButton.innerText = 'Join';
+        joinButton.innerText = 'Entrar Agora';
         footer.append(footerInfo, joinButton);
         //style
         widget.innerHTML = '<link rel="stylesheet" href="https://affonsogames.github.io/plugins/discordWidget.css">';
