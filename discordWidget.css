@@ -106,7 +106,7 @@ discord-widget widget-body widget-member widget-member-avatar img {
 discord-widget widget-body widget-member .widget-member-status {
   color: var(--statusColor);
   border-radius: 50%;
-  bottom: 5px;
+  bottom: 10px;
   height: 10px;
   position: absolute;
   right: 0px;
