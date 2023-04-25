@@ -184,7 +184,6 @@ discord-widget widget-footer widget-footer-info {
   flex: 1;
 }
 discord-widget widget-footer widget-button-join {
-  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,6 +206,7 @@ discord-widget widget-footer widget-button-join {
   -webkit-transition: opacity 0.25s ease-out;
   -o-transition: opacity 0.25s ease-out;
   transition: opacity 0.25s ease-out;
+  margin: 0 auto; /* Adiciona esta linha para centralizar o botão horizontalmente */
 }
 discord-widget widget-footer widget-button-join:hover {
   background-color: var(--buttonColor);
