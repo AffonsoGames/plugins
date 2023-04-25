@@ -24,14 +24,10 @@ window.addEventListener('load', () => {
         let footer = document.createElement('widget-footer');
         let footerInfo = document.createElement('widget-footer-info');
         let joinButton = document.createElement('widget-button-join');
-        // JavaScript
-        joinButton.setAttribute('href', data.instant_invite);
-        joinButton.setAttribute('target', '_blank');
-        joinButton.classList.add('centered-button');
         joinButton.addEventListener('click', e => {
-          if (joinButton.getAttribute('href')) {
-            window.open(joinButton.getAttribute('href') || '', joinButton.getAttribute('target') || '', '');
-          }
+            if (joinButton.getAttribute('href')) {
+                window.open(joinButton.getAttribute('href') || '', joinButton.getAttribute('target') || '', '');
+            }
         });
         footerInfo.innerText = footerText;
         joinButton.innerText = 'ENTRAR AGORA';
