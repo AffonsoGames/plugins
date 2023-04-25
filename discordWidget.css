@@ -184,6 +184,7 @@ discord-widget widget-footer widget-footer-info {
   flex: 1;
 }
 discord-widget widget-footer widget-button-join {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,8 +210,4 @@ discord-widget widget-footer widget-button-join {
 }
 discord-widget widget-footer widget-button-join:hover {
   background-color: var(--buttonColor);
-}
-// CSS
-.centered-button {
-  text-align: center;
 }
