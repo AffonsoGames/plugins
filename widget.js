@@ -47,7 +47,7 @@ window.addEventListener('load', () => {
         fetch(`https://discord.com/api/guilds/${id}/widget.json`).then(data => {
             data.json().then(data => {
                 //member count
-                count.innerHTML = `<h2><strong>${data.presence_count - 1} JOGADORES ONLINE</strong></h2>`;
+                count.innerHTML = `<h4><strong>${data.presence_count - 1} JOGADORES ONLINE</strong></h4>`;
                 //join button
                 joinButton.setAttribute('href', data.instant_invite);
                 joinButton.setAttribute('target', '_blank');
