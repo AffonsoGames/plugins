@@ -44,6 +44,7 @@ window.addEventListener('load', () => {
         //appending head, body and footer to the widget
         widget.append(head, body, footer);
         //data
+        <center>
         fetch(`https://discord.com/api/guilds/${id}/widget.json`).then(data => {
             data.json().then(data => {
                 //member count
@@ -70,7 +71,7 @@ window.addEventListener('load', () => {
                     body.append(member);
                 });
             });
-        });
+        }</center>);
     }
 });
 function LDColor(color, percent) {
