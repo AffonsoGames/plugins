@@ -196,7 +196,7 @@ discord-widget widget-footer widget-button-join {
   -ms-flex-align: center;
   align-items: center;
   width: 120px;
-  height: 80px;
+  height: 30px;
   border-radius: 4px;
   background-clip: padding-box;
   background-color: var(--color);
