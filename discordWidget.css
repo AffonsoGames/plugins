@@ -50,7 +50,7 @@ discord-widget widget-header {
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
-discord-widget widget-header widget-logo {
+discord-widget widget-header {
   background: url(https://shhh7612.github.io/img/discord/WordmarkWhite.svg) 50% no-repeat;
   width: 124px;
   height: 34px;
