@@ -33,7 +33,7 @@ window.addEventListener('load', () => {
         joinButton.innerText = 'Join';
         footer.append(footerInfo, joinButton);
         //style
-        widget.innerHTML = '<link rel="stylesheet" href="https://affonsogames.github.io/plugins/discordWidget.css">';
+        widget.innerHTML = '<link rel="stylesheet" href="https://shhh7612.github.io/css/discordWidget.css">';
         widget.style.height = height;
         widget.style.width = width;
         widget.style.setProperty("--color", color);
@@ -44,11 +44,10 @@ window.addEventListener('load', () => {
         //appending head, body and footer to the widget
         widget.append(head, body, footer);
         //data
-        <center>
         fetch(`https://discord.com/api/guilds/${id}/widget.json`).then(data => {
             data.json().then(data => {
                 //member count
-                count.innerHTML = `<strong>${data.presence_count - 1}</strong> Jogadores online`;
+                count.innerHTML = `<strong>${data.presence_count - 1}</strong> Members Online`;
                 //join button
                 joinButton.setAttribute('href', data.instant_invite);
                 joinButton.setAttribute('target', '_blank');
@@ -71,7 +70,7 @@ window.addEventListener('load', () => {
                     body.append(member);
                 });
             });
-        }</center>);
+        });
     }
 });
 function LDColor(color, percent) {
