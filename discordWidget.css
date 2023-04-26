@@ -164,14 +164,6 @@ discord-widget widget-footer {
   align-items: right;
   min-height: 30px;
 }
-discord-widget widget-footer widget-footer-info {
-  display: inline-block;
-  font-weight: 500;
-  opacity: 0.1;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
 discord-widget widget-footer widget-button-join {
   display: -webkit-box;
   display: -ms-flexbox;
