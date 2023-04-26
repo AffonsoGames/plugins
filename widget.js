@@ -30,6 +30,7 @@ window.addEventListener('load', () => {
             }
         });
         joinButton.innerText = 'ENTRAR AGORA';
+        head.append(logo);
         //footerInfo.innerText = footerText;
         footer.append(footerInfo, joinButton);
         //footer.append(footerInfo);
