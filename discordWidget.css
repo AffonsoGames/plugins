@@ -38,7 +38,7 @@ discord-widget ::-webkit-scrollbar-thumb:hover {
   -webkit-transition: ease-in-out 0.5s;
   transition: ease-in-out 0.5s;
 }
-discord-widget widget-header {
+discord-widget widget-header widget-logo { //tirar o widget-logo
   background-color: var(--color);
   padding: 20px;
   display: -webkit-box;
