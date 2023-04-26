@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
         let body = document.createElement('widget-body');
         //footer
         let footer = document.createElement('widget-footer');
-        let footerInfo = document.createElement('widget-footer-info');
+        //let footerInfo = document.createElement('widget-footer-info');
         let joinButton = document.createElement('widget-button-join');
         joinButton.addEventListener('click', e => {
             if (joinButton.getAttribute('href')) {
