@@ -40,7 +40,7 @@ discord-widget ::-webkit-scrollbar-thumb:hover {
 }
 discord-widget widget-header { 
   background-color: var(--color);
-  padding: 5px;
+  padding: 10px;  //este local muda oo tamanho onde fica escrito os jogadores online
   display: -webkit-box;
   display: -ms-flexbox;
   -webkit-box-align: center;
@@ -53,7 +53,7 @@ discord-widget widget-header widget-header-count {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  text-align: right;
+  text-align: left;
 }
 discord-widget widget-body {
   background-color: var(--bgColor);
