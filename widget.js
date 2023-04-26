@@ -29,9 +29,9 @@ window.addEventListener('load', () => {
                 window.open(joinButton.getAttribute('href') || '', joinButton.getAttribute('target') || '', '');
             }
         });
+        footerInfo.innerText = footerText; //esseeeeeee
         joinButton.innerText = 'ENTRAR AGORA';
         head.append(logo);
-        //footerInfo.innerText = footerText;
         footer.append(footerInfo, joinButton);
         //style
         widget.innerHTML = '<link rel="stylesheet" href="https://affonsogames.github.io/plugins/discordWidget.css">';
