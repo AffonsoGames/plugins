@@ -5,14 +5,64 @@
 
     <!-- If you want to use this, just copy and paste one of the script tags into your own html pages, for use on codepen only the minified version works-->
     <!-- For normal version of the widget -->
-    <script src="https://affonsogames.github.io/plugins/widget.js"></script>
+    <script src="https://affonsogames.github.io/plugins/widget.js"></script>					
 </head>
 
 <body>
-<script src="https://affonsogames.github.io/plugins/widget.js"></script>					
-						<div class="box">
-						<discord-widget id='302894269759488012' width="270px" height="390px" color="#007bff" backgroundColor="#007bff" textColor="#ffffff" style="text-align: center; statusColor="#858585"></discord-widget>
-					</div>
+    <!--All of these attributes are optional except for id-->
+    <div class="box">
+        <h4>The id attribute should be your server's id or any server with widgets enabled.</h4>
+        <discord-widget id="222078108977594368" width="350px" height="490px" footerText="Placeholder" color="#5865f2" backgroundColor="#0c0c0d" textColor="#ffffff" statusColor="#858585"></discord-widget>
+    </div>
+    <div class="box">
+        <h4>Example of excluded id</h4>
+        <discord-widget id="" height="490px"></discord-widget>
+    </div>
+    <div class="box">
+        <h4>All html attributes besides id are completely optional</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>id</td>
+                    <td>Server ID *required</td>
+                </tr>
+                <tr>
+                    <td>width</td>
+                    <td>Width of widget *optional; default = 350px</td>
+                </tr>
+                <tr>
+                    <td>height</td>
+                    <td>Height of widget *optional; default = 500px</td>
+                </tr>
+                <tr>
+                    <td>footerText</td>
+                    <td>Footer text *optional</td>
+                </tr>
+                <tr>
+                    <td>color</td>
+                    <td>Join button and header color *optional; default = #5865f2</td>
+                </tr>
+                <tr>
+                    <td>backgroundColor</td>
+                    <td>Main background color *optional; default = #0c0c0d</td>
+                </tr>
+                <tr>
+                    <td>textColor</td>
+                    <td>Main text color *optional; default = #ffffff</td>
+                </tr>
+                <tr>
+                    <td>statusColor</td>
+                    <td>User status text color *optional; default = #858585</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>
