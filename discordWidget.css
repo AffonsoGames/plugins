@@ -38,7 +38,7 @@ discord-widget ::-webkit-scrollbar-thumb:hover {
   -webkit-transition: ease-in-out 0.5s;
   transition: ease-in-out 0.5s;
 }
-discord-widget widget-header widget-logo { //tirar o widget-logo
+discord-widget widget-header { 
   background-color: var(--color);
   padding: 20px;
   display: -webkit-box;
@@ -50,7 +50,7 @@ discord-widget widget-header widget-logo { //tirar o widget-logo
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
-discord-widget widget-header {
+discord-widget widget-header widget-logo {//tirar o widget-logo
   background: url(https://shhh7612.github.io/img/discord/WordmarkWhite.svg) 50% no-repeat;
   width: 124px;
   height: 34px;
