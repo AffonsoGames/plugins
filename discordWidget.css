@@ -151,7 +151,7 @@ discord-widget widget-body widget-member widget-member-name {
 }
 discord-widget widget-footer {
   background-color: var(--bgColor);
-  -webkit-box-shadow: 0 -1px 18px rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 -1px 20px rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 -1px 18px rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(0, 0, 0, 0.2);
   -ms-flex-negative: 0;
   flex-shrink: 0;
