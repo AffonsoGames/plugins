@@ -49,16 +49,6 @@ discord-widget widget-header {
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
-discord-widget widget-header widget-logo {//tirar o widget-logo
-  background: url(https://i.imgur.com/MqJXNOO.png) 50% no-repeat;
-  width: 124px;
-  height: 34px;
-  background-size: 124px 34px;
-  display: inline-block;
-  -webkit-transition: opacity 0.25s ease-out;
-  -o-transition: opacity 0.25s ease-out;
-  transition: opacity 0.25s ease-out;
-}
 discord-widget widget-header widget-header-count {
   -webkit-box-flex: 1;
   -ms-flex: 1;
