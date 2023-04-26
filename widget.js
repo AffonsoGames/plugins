@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
         let body = document.createElement('widget-body');
         //footer
         let footer = document.createElement('widget-footer');
-        //let footerInfo = document.createElement('widget-footer-info');
+        let footerInfo = document.createElement('widget-footer-info'); //esseeeee
         let joinButton = document.createElement('widget-button-join');
         joinButton.addEventListener('click', e => {
             if (joinButton.getAttribute('href')) {
@@ -33,7 +33,6 @@ window.addEventListener('load', () => {
         head.append(logo);
         //footerInfo.innerText = footerText;
         footer.append(footerInfo, joinButton);
-        //footer.append(footerInfo);
         //style
         widget.innerHTML = '<link rel="stylesheet" href="https://affonsogames.github.io/plugins/discordWidget.css">';
         widget.style.height = height;
