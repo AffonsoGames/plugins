@@ -1,17 +1,58 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://affonsogames.github.io/plugins/widget.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prêmio</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+    </style>
 </head>
-<body bgcolor="000000">
-    <div class="box">
-        <discord-widget id="878281324371259442" width="350px" height="490px" footerText="Placeholder" color="#5865f2" backgroundColor="#0c0c0d" textColor="#ffffff" statusColor="#858585"></discord-widget>
+<body>
+    <div class="container">
+        <h1>Você ganhou, clique para reivindicar o seu prêmio</h1>
+        <div class="button" onclick="copyText()">Clique aqui</div>
     </div>
-    <div class="box">
-        <h4>Example of excluded id</h4>
-        <discord-widget id="" height="490px"></discord-widget>
-    </div>
-</body>
 
+    <script>
+        function copyText() {
+            const textToCopy = 'Seu texto definido aqui';
+            const textArea = document.createElement('textarea');
+            textArea.value = textToCopy;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            alert('Texto copiado: ' + textToCopy);
+        }
+    </script>
+</body>
 </html>
