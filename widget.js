@@ -7,7 +7,8 @@ window.addEventListener('load', () => {
         let height = widget.getAttribute('height') ?? '500px';
         let footerText = widget.getAttribute('footerText') ?? '';
         let color = widget.getAttribute('color') ?? '#ffa600';
-        let backgroundColor = widget.getAttribute('backgroundColor') ?? '#0c0c0d';
+        let backgroundColor = 'transparent';
+        widget.style.background = 'transparent';
         let textColor = widget.getAttribute('textColor') ?? '#fff';
         let statusColor = widget.getAttribute('statusColor') ?? '#858585';
         if (!id) {
